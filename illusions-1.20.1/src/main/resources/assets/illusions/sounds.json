@@ -1,0 +1,16 @@
+{
+  "raid_sound_event": {
+    "category": "ambient",
+    "subtitle": "subtitles.illusions.raid_sound_event",
+    "sounds": [
+      "illusions:raid_sound_event"
+    ]
+  },
+  "craft_horn": {
+    "category": "ambient",
+    "subtitle": "subtitles.illusions.craft_horn",
+    "sounds": [
+      "illusions:craft_horn"
+    ]
+  }
+}

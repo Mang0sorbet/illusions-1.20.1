@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "illusions",
+	"version": "${version}",
+	"name": "Illusions",
+	"description": "Watch as the worlds you knew turn into illusions",
+	"authors": [
+		"Mang0sorbet"
+	],
+	"contact": {
+		"homepage": "twitch.tv/mang0sorbet",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/illusions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mango.illusions.Illusions"
+		],
+		"client": [
+			"net.mango.illusions.IllusionsClient"
+		],
+		"fabric-datagen": [
+			"net.mango.illusions.IllusionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"illusions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
