@@ -22,16 +22,18 @@ public class ModItems {
 
     public static final Item HORN_OF_THE_RAIDERS = registerItem("horn_of_the_raiders", new Item(new FabricItemSettings()));
 
+    public static final Item KEY_HEAD = registerItem("key_head", new Item(new FabricItemSettings()));
+
     public static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(FORBIDDEN_KEY);
         entries.add(CRACKED_TOTEM);
         entries.add(FRAGMENTED_HORN);
         entries.add(HORN_OF_THE_RAIDERS);
+        entries.add(KEY_HEAD);
 
 
     }
 
-    Items
 
     public static void registerModItems() {
 
