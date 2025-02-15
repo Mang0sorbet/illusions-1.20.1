@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.FRAGMENTED_HORN);
                         entries.add(ModItems.CRACKED_TOTEM);
                         entries.add(ModItems.FORBIDDEN_KEY);
+                        entries.add(ModItems.KEY_HEAD);
                     }).build());
 
     public static void registerItemGroups() {
