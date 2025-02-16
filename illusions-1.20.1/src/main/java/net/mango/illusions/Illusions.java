@@ -1,8 +1,7 @@
 package net.mango.illusions;
 
 import net.fabricmc.api.ModInitializer;
-
-import net.mango.illusions.instruments.ModInstruments;
+import net.mango.illusions.blocks.ModBlocks;
 import net.mango.illusions.item.ModItemGroups;
 import net.mango.illusions.item.ModItems;
 import net.mango.illusions.item.ModSounds;
@@ -20,5 +19,6 @@ public class Illusions implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModSounds.registerSounds();
+		ModBlocks.registerModBlocks();
 	}
 }
