@@ -2,5 +2,13 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "illusions:item/horn_of_the_raiders"
-  }
+  },
+    "overrides": [
+        {
+            "predicate": {
+                "tootingraider": 1
+            },
+            "model": "illusions:item/tooting_horn_of_the_raiders"
+        }
+    ]
 }
