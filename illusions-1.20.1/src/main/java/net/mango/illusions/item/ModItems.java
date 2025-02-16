@@ -4,10 +4,13 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mango.illusions.Illusions;
+import net.minecraft.item.GoatHornItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.tag.InstrumentTags;
 import net.minecraft.util.Identifier;
 
 
@@ -19,7 +22,7 @@ public class ModItems {
 
     public static final Item FRAGMENTED_HORN = registerItem("fragmented_horn", new Item(new FabricItemSettings()));
 
-    public static final Item HORN_OF_THE_RAIDERS = registerItem("horn_of_the_raiders", new Item(new FabricItemSettings()));
+    public static final Item HORN_OF_THE_RAIDERS = registerItem("horn_of_the_raiders", new GoatHornItem((new Item.Settings()).maxCount(1), InstrumentTags.GOAT_HORNS));
 
     public static final Item KEY_HEAD = registerItem("key_head", new Item(new FabricItemSettings()));
 

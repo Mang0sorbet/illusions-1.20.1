@@ -2,6 +2,7 @@ package net.mango.illusions;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mango.illusions.instruments.ModInstruments;
 import net.mango.illusions.item.ModItemGroups;
 import net.mango.illusions.item.ModItems;
 import net.mango.illusions.item.ModSounds;
