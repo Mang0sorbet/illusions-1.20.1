@@ -23,7 +23,7 @@ public class ModItems {
 
     public static final Item FRAGMENTED_HORN = registerItem("fragmented_horn", new Item(new FabricItemSettings()));
 
-    public static final Item HORN_OF_THE_RAIDERS = registerItem("horn_of_the_raiders", new HornItem(new Item.Settings().maxCount(1).rarity(Rarity.EPIC), Text.literal("A universe in a marble ball...").setStyle(Style.EMPTY.withColor(Formatting.DARK_PURPLE).withBold(false).withItalic(true)), ModSounds.RAID_SOUND_EVENT.Event, 600, 300, 240));
+    public static final Item HORN_OF_THE_RAIDERS = registerItem("horn_of_the_raiders", new HornItem(new Item.Settings().maxCount(1).rarity(Rarity.EPIC), Text.literal("Use this once and summon the wrath of the illagers").setStyle(Style.EMPTY.withColor(Formatting.DARK_PURPLE).withBold(false).withItalic(true)), ModSounds.RAID_SOUND_EVENT.Event, 600, 300, 240));
 
     public static final Item KEY_HEAD = registerItem("key_head", new Item(new FabricItemSettings()));
 

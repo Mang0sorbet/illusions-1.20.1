@@ -9,10 +9,9 @@
 	],
 	"contact": {
 		"homepage": "twitch.tv/mang0sorbet",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Mang0sorbet/illusions-1.20.1"
 	},
 	"license": "MIT",
-	"icon": "assets/illusions/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

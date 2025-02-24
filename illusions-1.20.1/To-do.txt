@@ -1,0 +1,7 @@
+1) Get stego to add Illager Invasion
+2) Make cool Barrier Block thing
+    - Make it so that there is an effect called Trapped that can't be removed until the person has died
+    - Make a new item called the escape totem to prevent the effect Trapped
+    - Make 
+3) Make animated block for the barrier thing
+4) Prison

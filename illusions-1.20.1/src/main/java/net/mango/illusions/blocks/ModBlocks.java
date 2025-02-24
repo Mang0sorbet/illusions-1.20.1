@@ -9,12 +9,18 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
     public static final Block AEGIS_CORE = registerBlock("aegis_core",
-            new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.create()
+                    .dropsNothing()
+                    .strength(-1.0f, 3600000.0f)
+                    .sounds(BlockSoundGroup.NETHERITE)));
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
