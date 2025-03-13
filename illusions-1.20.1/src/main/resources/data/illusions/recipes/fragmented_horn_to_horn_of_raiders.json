@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "## ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "illusions:fragmented_horn"
+    }
+  },
+  "result": {
+    "item": "illusions:horn_of_the_raiders"
+  }
+}

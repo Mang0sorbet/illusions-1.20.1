@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#E#",
+    "E E",
+    "#E#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "funnieroriginstweaks:portaldecoblock"
+    }
+  },
+  "result": {
+    "item": "illusions:aegis_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/aegis_core",
+  "textures": {
+    "all": "illusions:block/aegis_core"
+  }
+}
