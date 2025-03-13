@@ -3,7 +3,7 @@
 	"package": "net.mango.illusions.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-
+		"IllusionsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

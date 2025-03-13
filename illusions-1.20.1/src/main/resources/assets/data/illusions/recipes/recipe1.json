@@ -1,0 +1,13 @@
+{
+  "type":  "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "funnierorigintweaks:portaldecoblock"
+    }
+  ],
+"result": {
+  "item": "illusions:aegis_core",
+  "count": 1
+  }
+}
