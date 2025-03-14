@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.new": {
+			"loop": true,
+			"animation_length": 72,
+			"bones": {
+				"Obelisk": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [0, 0, 0.01]
+				},
+				"Outer": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*45) * 16", "math.sin(query.anim_time*45) * 16", "math.sin(query.anim_time*45) * 16"]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
