@@ -3,8 +3,8 @@ package net.mango.illusions.blocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mango.illusions.Illusions;
+import net.mango.illusions.blocks.custom.AnimatedBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -14,8 +14,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block AEGIS_CORE = registerBlock("aegis_core",
-            new Block(FabricBlockSettings.create()
+    public static final Block AEGIS_CORE = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MODID, "aegis_core",
+            new AnimatedBlock(FabricBlockSettings.create()
                     .dropsNothing()
                     .strength(-1.0f, 3600000.0f)
                     .sounds(BlockSoundGroup.NETHERITE)));
