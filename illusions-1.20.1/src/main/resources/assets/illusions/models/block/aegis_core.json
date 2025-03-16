@@ -1,6 +1,11 @@
 {
-  "parent": "block/aegis_core",
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    32,
+    32
+  ],
   "textures": {
-    "all": "illusions:block/aegis_core"
+    "particle": "illusions:item/aegis_core"
   }
 }
