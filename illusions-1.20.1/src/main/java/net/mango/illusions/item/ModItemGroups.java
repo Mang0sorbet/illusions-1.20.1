@@ -19,7 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CRACKED_TOTEM);
                         entries.add(ModItems.FORBIDDEN_KEY);
                         entries.add(ModItems.KEY_HEAD);
-                        entries.add(ModBlocks.AEGIS_CORE);
+                        entries.add(ModItems.AEGIS_CORE);
                     }).build());
 
     public static void registerItemGroups() {

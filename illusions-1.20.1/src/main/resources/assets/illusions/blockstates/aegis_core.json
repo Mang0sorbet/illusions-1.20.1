@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "illusions:block/aegis_core"
-    }
+    "": { "model": "illusions:block/aegis_core"}
   }
 }

@@ -4,6 +4,8 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mango.illusions.Illusions;
+import net.mango.illusions.blocks.ModBlocks;
+import net.mango.illusions.item.custom.AnimatedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -27,12 +29,15 @@ public class ModItems {
 
     public static final Item KEY_HEAD = registerItem("key_head", new Item(new FabricItemSettings()));
 
+    public static final Item AEGIS_CORE = registerItem("aegis_core", new AnimatedBlockItem(ModBlocks.ANIMATED_BLOCK,new FabricItemSettings()));
+
     public static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
         entries.add(FORBIDDEN_KEY);
         entries.add(CRACKED_TOTEM);
         entries.add(FRAGMENTED_HORN);
         entries.add(HORN_OF_THE_RAIDERS);
         entries.add(KEY_HEAD);
+        entries.add(AEGIS_CORE);
 
 
     }

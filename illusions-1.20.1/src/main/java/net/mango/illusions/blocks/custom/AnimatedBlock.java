@@ -21,6 +21,6 @@ public class AnimatedBlock extends BlockWithEntity {
 
     @Override
     public BlockRenderType getRenderType(BlockState state) {
-        return BlockRenderType.ENTITYBLOCK_ANIMATED;
+        return super.getRenderType(state);
     }
 }

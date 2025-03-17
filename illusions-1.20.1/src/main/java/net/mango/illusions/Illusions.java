@@ -2,6 +2,7 @@ package net.mango.illusions;
 
 import net.fabricmc.api.ModInitializer;
 import net.mango.illusions.blocks.ModBlocks;
+import net.mango.illusions.blocks.entity.ModBlockEntities;
 import net.mango.illusions.item.ModItemGroups;
 import net.mango.illusions.item.ModItems;
 import net.mango.illusions.item.ModSounds;
@@ -23,5 +24,6 @@ public class Illusions implements ModInitializer {
 		ModSounds.registerSounds();
 		ModBlocks.registerModBlocks();
 		GeckoLib.initialize();
+		ModBlockEntities.registerAllBlockEntities();
 	}
 }

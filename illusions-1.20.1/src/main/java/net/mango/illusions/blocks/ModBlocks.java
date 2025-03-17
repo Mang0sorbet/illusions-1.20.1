@@ -8,6 +8,7 @@ import net.mango.illusions.blocks.custom.AnimatedBlock;
 import net.mango.illusions.item.ModItemGroups;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.SignBlock;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.item.BlockItem;
@@ -17,13 +18,22 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.gen.surfacebuilder.MaterialRules;
 
 public class ModBlocks {
 
-    public static final Block AEGIS_CORE = registerBlockWithoutBlockItem(
-            "aegis_core",
-            new AnimatedBlock(FabricBlockSettings.create().strength(4.0f, 6.0f)), // Add block properties
-            ModItemGroups.ILLUSION_GROUP);
+    public static final Block ANIMATED_BLOCK = Registry.register(
+            Registries.BLOCK,
+            new Identifier(Illusions.MOD_ID, "aegis_core"),
+            new AnimatedBlock(FabricBlockSettings.create()
+                    .mapColor(MapColor.STONE_GRAY)
+                    .strength(1.5F, 6.0F)
+                    .sounds(BlockSoundGroup.STONE)
+                    .requiresTool()
+                    .nonOpaque()
+            )
+    );
+
 
 
 
